@@ -1,13 +1,11 @@
 package com.pluralsight.assets;
 
-abstract class FixedAsset {
-    String name;
-    double marketValue;
+abstract class FixedAsset implements Valuable {
+    private String name;
+    private double marketValue;
 
     //methods
-
     //Asset(name: String, value: double);
-    //getValue(): double;
 
     //Constructor
     public FixedAsset(String name, double marketValue) {
