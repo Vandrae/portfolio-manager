@@ -4,13 +4,18 @@ import com.pluralsight.assets.Valuable;
 
 public class BankAccount implements Valuable {
 
-    private String name;
     private String accountNumber;
+    private String name;
     private double balance;
 
     //methods
-    //deposit(amount:double)
-    //withdraw(amount:double)
+    public void deposit(double amount){
+        return;
+    }
+
+    public void withdraw(double amount){
+        return;
+    }
 
     @Override
     public double getValue() {

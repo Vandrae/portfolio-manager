@@ -7,6 +7,15 @@ public class CreditCard implements Valuable {
     private String accountNumber;
     private double balance;
 
+    //methods
+    public void charge(double amount){
+      return;
+    }
+
+    public void pay(double amount){
+        return;
+    }
+
     @Override
     public double getValue() {
         return 0;
